@@ -7,7 +7,7 @@ This tutorial details the steps of using and understanding packet-detecting soft
 
 <h2>Environments & Softwares Used</h2>
 
-- VirtualBox (Virtual Machines/Compute)
+- VirtualBox (Virtual Machines/Computer)
 - Kali Linux
 - Windows 10
 - Nmap
