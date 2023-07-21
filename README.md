@@ -30,5 +30,7 @@ If you remember from our last tutorial, we have installed the virtual machine so
 </p>
 
 <p>
-After that, go to both virtual machines and press the gear that says settings because we have to make sure that both virtual machines can connect with each other. You will need to go to settings -> network -> adapter 1 for each virtual machine. Click on the dropdown menu, click on attached to, and click Nat Network. Afterward, you will need to click on the specific nat network that you made and named. 
+After that, go to both virtual machines and press the gear that says settings because we have to make sure that both virtual machines can connect with each other. You will need to go to settings -> network -> adapter 1 for each virtual machine. Click on the dropdown menu, click on attached to, and click Nat Network. Afterward, you will need to click on the specific nat network that you made and named. Click ok and now the settings should be finalized.
+
+Now you can finally start and log in to the virtual machines you have finally made. Click on start for both of them and log in.
 </p>
