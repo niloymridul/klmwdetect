@@ -34,3 +34,17 @@ After that, go to both virtual machines and press the gear that says settings be
 
 Now you can finally start and log in to the virtual machines you have finally made. Click on start for both of them and log in.
 </p>
+
+<p align="center">
+<img src="https://github.com/niloymridul/klmwdetect/assets/139414980/b2d6bdc1-4f84-4351-9b23-79283af3ddd3" alt="Wireshark logo"/>
+</p>
+
+<p>
+Now you can finally start and log in to the virtual machines you have finally made. Click on Start for both of them and log in. We will have to install a program called Wireshark on the Windows computer. This will be the last thing we will need to install before we can start packet detection. Click the link below and we will start installing the software.
+</p>
+
+[Click here to go to the official download webpage of Wireshark!](https://www.wireshark.org/download.html)
+
+<p>
+
+</p>
