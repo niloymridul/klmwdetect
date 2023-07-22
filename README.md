@@ -46,5 +46,31 @@ Now you can finally start and log in to the virtual machines you have finally ma
 [Click here to go to the official download webpage of Wireshark!](https://www.wireshark.org/download.html)
 
 <p>
-
+The reason we use Wireshark is because Wireshark is not only capable of seeing traffic from the one running it but also from other computers running on the network as well. Just click next or noted for the most part unless you want to have a desktop icon then go ahead. Feel free to configure the installation process however you feel. Install npcap and usbpcap if desired as they will be needed to work with Wireshark.
 </p>
+
+
+<p align="center">
+<img src="https://github.com/niloymridul/klmwdetect/assets/139414980/4e586eda-98b7-433f-82c1-6dc38adfa3d9" alt="Wireshark logo"/>
+</p>
+
+
+<p>
+Once it is installed, search for it with the search function when hitting the Windows key or clicking the desktop icon. Make sure to run as admin or else the program will give many prompts asking you for admin privileges. The image below explains what each part of the Wireshark interface does.  
+</p>
+
+<p align="center">
+<img src="https://github.com/niloymridul/klmwdetect/assets/139414980/fb17a524-9117-4403-9990-681047f9263c" alt="Wireshark logo"/>
+</p>
+
+<p>
+There are four parts you want to keep in mind. 
+
+1 - This is the filter bar. Type in what you want to see.
+2 - This is the packet list area. This display all the packets that were captured in the network and going throughout.
+3 - This is the packet details panel. This shows all the protocols and the information that comes with it. You can open each protocol up for more details
+4 - This is the packet bytes panel. This is the panel where all packet data is dumped and shown and decrpyted.
+</p>
+
+
+
