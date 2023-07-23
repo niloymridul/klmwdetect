@@ -87,10 +87,6 @@ So with the Windows Ip address in mind, we can go to the Kali Linux virtual mach
 </p>
 
 
-<p align="center">
-<img src="https://github.com/niloymridul/klmwdetect/assets/139414980/0fcecaa4-308a-4a70-b9b1-7d0f029d7135" height="80%" width="80%" alt="VMBOX look"/>
-</p>
-
 <p>
 As you can see, a lot of the pings on the Kali Linux side are not going through. The reason why is that the firewall is on. This is reflected on Wireshark as it states no response was found. But you can hit Ctrl and C on the Kali Linux machine to stop pinging. Go ahead and comb through the Windows Wireshark captured packets.
 </p>
@@ -101,6 +97,10 @@ This is where Nmap comes into play. Nmap is also a network scanner but it doesn'
 
 <p>
 Now Nmap has to be installed in other OS's but for this distro of Linux, we can use this immediately as Linux comes preinstalled. Type in the following command with the IP address, hit enter and wait for a minute or two. nmap -p (insert IP address here). 
+</p>
+
+<p align="center">
+<img src="https://github.com/niloymridul/klmwdetect/assets/139414980/0fcecaa4-308a-4a70-b9b1-7d0f029d7135" height="80%" width="80%" alt="VMBOX look"/>
 </p>
 
 <p>
