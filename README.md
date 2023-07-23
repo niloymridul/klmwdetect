@@ -15,7 +15,7 @@ This tutorial details the steps of using and understanding packet-detecting soft
   
 <h2>Project Steps</h2>
 <p>
-If you remember from our last tutorial, we have installed the virtual machine software called VirtualBox Manager and set up two virtual machines for both Kali Linux and Windows. Now we still have only two things to do before we can actually get into the packet detection setup. 
+If you remember from our last tutorial, we installed the virtual machine software called VirtualBox Manager and set up two virtual machines for both Kali Linux and Windows. Now we still have only two things to do before we can actually get into the packet detection setup. 
 </p>
 
 <p align="center">
@@ -87,11 +87,23 @@ So with the Windows Ip address in mind, we can go to the Kali Linux virtual mach
 </p>
 
 <p>
-As you can see, a lot of the pings on the Kali Linux side are not going through. The reason why is because the firewall is on. This is reflected on Wireshark as it states no response was found. But you can hit Ctrl and C on the Kali Linux machine to stop pinging. Go ahead and comb through the Windows Wireshark captured packets.
+As you can see, a lot of the pings on the Kali Linux side are not going through. The reason why is that the firewall is on. This is reflected on Wireshark as it states no response was found. But you can hit Ctrl and C on the Kali Linux machine to stop pinging. Go ahead and comb through the Windows Wireshark captured packets.
 </p>
 
 <p>
-Congratulations, we have captured packets and scan ports. Feel free to experiment with these two systems as this is how people experiment with homelabs.
+This is where Nmap comes into play. Nmap is also a network scanner but it doesn't come with a interface and is more for security auditing and network scanning. Now do not use this on public or private networks unless you own it or have permission as it is illegal. But for this case, we can.
+</p>
+
+<p>
+Now Nmap has to be installed in other OS's but for this distro of Linux, we can use this immediately as Linux comes preinstalled. Type in the following command with the IP address, hit enter and wait for a minute or two. nmap -p (insert IP address here). 
+</p>
+
+<p>
+The reason why we are doing this command is to see what ports are open or not on the Windows System. After scanning for a while, you will get a message telling you that the scan wasn't able to do much as it appears as if the host is down and it could not ping probes and will most likely tell you of one open port. There is a way around this which we will explain in the next and final part of the tutorial.
+</p>
+
+<p>
+Congratulations, we have captured packets and scan ports. Feel free to experiment with these two systems as this is how people experiment with home labs.
 </p>
 
 
