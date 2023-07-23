@@ -56,7 +56,7 @@ The reason we use Wireshark is because Wireshark is not only capable of seeing t
 
 
 <p>
-Once it is installed, search for it with the search function when hitting the Windows key or clicking the desktop icon. Make sure to run as admin or else the program will give many prompts asking you for admin privileges. The image below explains what each part of the Wireshark interface does.  
+Once it is installed, search for it with the search function when hitting the Windows key or clicking the desktop icon. Make sure to run as admin or else the program will give many prompts asking you for admin privileges. Click Ethernet to start capturing packets below the header that says Capture The image below explains what each part of the Wireshark interface does.  
 </p>
 
 <p align="center">
@@ -72,6 +72,27 @@ There are four parts you want to keep in mind.
 - 2 - This is the packet list area. This display all the packets that were captured in the network and going throughout.
 - 3 - This is the packet details panel. This shows all the protocols and the information that comes with it. You can open each protocol up for more details
 - 4 - This is the packet bytes panel. This is the panel where all packet data is dumped and shown and decrypted.
+
+<p>
+Now what I want you to do is go to the Windows Console and type in ipconfig. The IPV4 address is the IP address of the Windows Virtual Machine. This is to check the IP address of the virtual machine so we can ping it and capture the data being sent.
+</p>
+
+<p align="center">
+<img src="https://github.com/niloymridul/klmwdetect/assets/139414980/5b2de2f9-9296-4adf-ba62-9c5f1bde7562" height="80%" width="80%" alt="Wireshark logo"/>
+</p>
+
+
+<p>
+So with the Windows Ip address in mind, we can go to the Kali Linux virtual machine and sign in. We will then have to open the console and type in ping and then the IP address. Seeing as we started to capture from Windows, nothing will happen yet until we hit enter in the Kali Linux virtual machine. 
+</p>
+
+<p>
+As you can see, a lot of the pings on the Kali Linux side are not going through. The reason why is because the firewall is on. This is reflected on Wireshark as it states no response was found. But you can hit Ctrl and C on the Kali Linux machine to stop pinging. Go ahead and comb through the Windows Wireshark captured packets.
+</p>
+
+<p>
+Congratulations, we have captured packets, and now feel free to experiment with these two systems as this is how people experiment with home labs.
+</p>
 
 
 
