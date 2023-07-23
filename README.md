@@ -3,7 +3,7 @@
 </p>
 
 <h1>Kali Linux, Nmap & Wireshark - Packet Detection & Port Scanning</h1>
-This tutorial details the steps of using and understanding packet-detecting software. <br />
+This tutorial details the steps of using and understanding packet-detecting and port scanning software. <br />
 
 <h2>Environments & Softwares Used</h2>
 
