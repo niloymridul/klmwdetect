@@ -2,7 +2,7 @@
 <img src="https://github.com/niloymridul/klmwdetect/assets/139414980/3787196e-c042-4313-bdcf-952365e8ad02" height="40%" width="40%" alt="Kali Linux logo"/>
 </p>
 
-<h1>Kali Linux, Nmap & Wireshark - Packet Detection </h1>
+<h1>Kali Linux, Nmap & Wireshark - Packet Detection & Port Scanning</h1>
 This tutorial details the steps of using and understanding packet-detecting software. <br />
 
 <h2>Environments & Softwares Used</h2>
@@ -91,7 +91,7 @@ As you can see, a lot of the pings on the Kali Linux side are not going through.
 </p>
 
 <p>
-Congratulations, we have captured packets, and now feel free to experiment with these two systems as this is how people experiment with home labs.
+Congratulations, we have captured packets and scan ports. Feel free to experiment with these two systems as this is how people experiment with homelabs.
 </p>
 
 
