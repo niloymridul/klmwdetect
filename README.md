@@ -86,6 +86,11 @@ Now what I want you to do is go to the Windows Console and type in ipconfig. The
 So with the Windows Ip address in mind, we can go to the Kali Linux virtual machine and sign in. We will then have to open the console and type in ping and then the IP address. Seeing as we started to capture from Windows, nothing will happen yet until we hit enter in the Kali Linux virtual machine. 
 </p>
 
+
+<p align="center">
+<img src="https://github.com/niloymridul/klmwdetect/assets/139414980/0fcecaa4-308a-4a70-b9b1-7d0f029d7135" height="80%" width="80%" alt="VMBOX look"/>
+</p>
+
 <p>
 As you can see, a lot of the pings on the Kali Linux side are not going through. The reason why is that the firewall is on. This is reflected on Wireshark as it states no response was found. But you can hit Ctrl and C on the Kali Linux machine to stop pinging. Go ahead and comb through the Windows Wireshark captured packets.
 </p>
