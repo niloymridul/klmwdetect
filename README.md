@@ -96,7 +96,8 @@ To reinforce the idea that a firewall is effective, we will start to use Nmap. N
 </p>
 
 <p>
-Now Nmap has to be installed in other OS's but for this distro(distribution) of Linux, we can use this immediately as Linux comes preinstalled. Type in the following command with the IP address, hit enter and wait for a minute or two. nmap -p (insert IP address here). 
+Now Nmap has to be installed in other OS's but for this distro(distribution) of Linux, we can use this immediately as Linux comes preinstalled. Type in the following command with the IP address, hit enter and wait for a minute or two. nmap -p 0-1024 (insert IP address here).  The -p is because we just want to do a simple scan and we use 0-1024 because we want to scan the most often-used ports on computers.
+
 </p>
 
 <p align="center">
